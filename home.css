@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 20px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+.logo .logo-image {
+  padding: 20px;
+  padding: 9px 32px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0px 15px;
+  position: relative;
+}
+.navbar li img {
+  position: absolute;
+  bottom: 4px;
+  padding: 0px 4px;
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.buttons button {
+  margin: 0px 10px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signin {
+  all: unset;
+  display: flex;
+  align-items: center;
+}
+.signin:hover {
+  color: rgb(85, 85, 85);
+}
+.signin img {
+  padding: 0px 20px;
+}
+.tts {
+  all: unset;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #4a154b;
+  color: #4a154b;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+.tts:hover {
+  transform: scale(1.025); /* Slightly enlarges the button on hover */
+  border-width: 1px;
+}
+.getStarted {
+  all: unset;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #4a154b;
+  color: white;
+  background-color: #4a154b;
+  padding: 20px 30px;
+}
+.getStarted:hover {
+  background-color: #2a0d2b;
+}
+header .cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.contButton {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.cont .heading {
+  text-align: center;
+}
+.cont .heading h1 {
+  font-weight: 600;
+  font-size: 50px;
+  margin: 20px 0px 16px 0px;
+}
+.cont .heading h1 span {
+  color: #4a154b;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+}
+.logoImage ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+.logoImage ul li {
+  padding: 20px 30px;
+}
+.contButton button {
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin: 0px 0px 16px 0px;
+}
+.contButton .getStarted {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.extren {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+.videoCont {
+  display: flex;
+  justify-content: center;
+}
+.videoCont video {
+  border-radius: 10px;
+  z-index: 1;
+}
+.mainCont {
+  background-color: #f4ede4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  bottom: 240px;
+  z-index: 0;
+}
+.boxes {
+  height: 800px;
+  position: relative;
+  top: 400px;
+}
+.boxes .box1 {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.box1 .boxVideo {
+  width: 50%;
+}
+.box1 .boxDesc {
+  width: 50%;
+  text-align: left;
+}
+.box1 .boxDesc h1 {
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.box1 .boxDesc p {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.box1 .boxDesc a {
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 20px;
+}
